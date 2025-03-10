@@ -22,3 +22,12 @@ The script takes the user’s name as input and prints a personalized greeting.
 It also displays messages from different branches to demonstrate Git merge handling.
 
 
+During this project, I encountered a few challenges while working with GitHub and resolved them as follows:
+
+ Issue: "Git branch not found" when trying to switch branches
+ Resolution: I used git branch -a to list all available branches and ensured I had fetched all branches using git fetch --all.
+
+ Issue: Merge conflict in hello.py when merging feature-2
+Resolution: I manually edited hello.py to keep the correct version of the greeting messages, removed conflict markers (<<<<<<<, =======, >>>>>>>), and then committed the resolved file.
+
+
