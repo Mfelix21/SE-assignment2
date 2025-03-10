@@ -18,8 +18,7 @@ python hello.py
 3. Usage Example
 When the script runs, it will prompt the user for input:
 
-Enter your name: John
-Hello, John!
-Hello from main branch!
-Hello from feature-2 branch!
+The script takes the user’s name as input and prints a personalized greeting.  
+It also displays messages from different branches to demonstrate Git merge handling.
+
 
